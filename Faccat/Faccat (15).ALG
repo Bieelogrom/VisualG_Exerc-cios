@@ -5,31 +5,31 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   n1, n2, n3, soma:inteiro
+   numero_um, numero_dois, numero_tres, soma:inteiro
 
 Inicio
    Escreva("Digite o primeiro n�mero: ")
-   Leia(n1)
+   Leia(numero_um)
    Escreva("Digite o segundo n�mero: ")
-   Leia(n2)
+   Leia(numero_dois)
    Escreva("Digite o terceiro n�mero: ")
-   Leia(n3)
+   Leia(numero_tres)
 
-   Se n1 > n2 entao
-      Se n2 > n3 entao
-         soma <- n1 + n2
+   Se numero_um > numero_dois entao
+      Se numero_dois > numero_tres entao
+         soma <- numero_um + numero_dois
          Escreva("A soma dos maiores �: ", soma)
       Senao
-         soma <- n1 + n3
+         soma <- numero_um + numero_tres
          Escreva("A soma dos maiores �: ", soma)
       FimSe
 
    Senao
-      Se n1 > n3 entao
-         soma <- n2 + n1
+      Se numero_um > numero_tres entao
+         soma <- numero_dois + numero_um
          Escreva("A soma dos maiores �: ", soma)
       Senao
-         soma <- n2 + n3
+         soma <- numero_dois + numero_tres
          Escreva("A soma dos maiores �: ", soma)
       FimSe
    FimSe

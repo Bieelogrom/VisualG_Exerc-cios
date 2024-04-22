@@ -5,27 +5,27 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   n1, n2, n3:inteiro
+   numero_um, numero_dois, numero_tres:inteiro
 
 Inicio
    Escreva("Digite o primeiro n�mero: ")
-   Leia(n1)
+   Leia(numero_um)
    Escreva("Digite o segundo n�mero: ")
-   Leia(n2)
+   Leia(numero_dois)
    Escreva("Digite o terceiro n�mero: ")
-   Leia(n3)
+   Leia(numero_tres)
 
-   Se n1 > n2 entao
-      Se n1 > n3 entao
-         Escreva("O maior n�mero �: ", n1)
+   Se numero_um > numero_dois entao
+      Se numero_um > numero_tres entao
+         Escreva("O maior n�mero �: ", numero_um)
       Senao
-         Escreva("O maior n�mero �": n3)
+         Escreva("O maior n�mero �": numero_tres)
       FimSe
    Senao
-      Se n2 > n3 entao
-         Escreva("O maior n�mero �: ", n2)
+      Se numero_dois > numero_tres entao
+         Escreva("O maior n�mero �: ", numero_dois)
       Senao
-         Escreva("O maior n�mero �: ", n3)
+         Escreva("O maior n�mero �: ", numero_tres)
       FimSe
    FimSe
 

@@ -5,16 +5,16 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-n1, n2, aux:inteiro
+numero_um, numero_dois, temporaria:inteiro
 
 Inicio
 Escreva("Digite o primeiro valor: ")
-Leia(n1)
+Leia(numero_um)
 Escreva("Digite o segundo valor: ")
-Leia(n2)
-aux <- n1
-n1 <- n2
-n2 <- aux
+Leia(numero_dois)
+temporaria <- numero_um
+numero_um <- numero_dois
+numero_dois <- temporaria
 
 Escreva("Os valores trocados s�o, respectivamente: ", n1, n2)
 

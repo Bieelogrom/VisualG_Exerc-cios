@@ -5,33 +5,33 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   n1, n2, n3:inteiro
+   numero_um, numero_dois, numero_tres:inteiro
 
 Inicio
    Escreva("Digite o primeiro n�mero: ")
-   Leia(n1)
+   Leia(numero_um)
    Escreva("Digite o segundo n�mero: ")
-   Leia(n2)
+   Leia(numero_dois)
    Escreva("Digite o terceiro n�mero: ")
-   Leia(n3)
+   Leia(numero_tres)
 
-   Se n1 < n2 entao
-      Se n1 < n3 entao
-         Se n2 < n3 entao
-            Escreva("Em ordem crescente: ", n1, n2, n3)
+   Se numero_um < numero_dois entao
+      Se numero_um < numero_tres entao
+         Se numero_dois < numero_tres entao
+            Escreva("Em ordem crescente: ", numero_um, numero_dois, numero_tres)
          Senao
-            Escreva("Em ordem crescente: ", n1, n3, n2)
+            Escreva("Em ordem crescente: ", numero_um, numero_tres, numero_dois)
          FimSe
       Senao
-         Escreva("Em ordem crescente: ", n3, n1, n2)
+         Escreva("Em ordem crescente: ", numero_tres, numero_um, numero_dois)
       FimSe
 
 
    Senao
-      Se n1 < n3 entao
-         Escreva("Em ordem crescente: ", n2, n1, n3)
+      Se numero_um < numero_tres entao
+         Escreva("Em ordem crescente: ", numero_dois, numero_um, numero_tres)
       Senao
-         Escreva("Em ordem crescente: ", n3, n2, n1)
+         Escreva("Em ordem crescente: ", numero_tres, numero_dois, numero_um)
       FimSe
    FimSe
 Fimalgoritmo

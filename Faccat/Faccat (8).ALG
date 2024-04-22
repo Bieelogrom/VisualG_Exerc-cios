@@ -6,15 +6,15 @@ Algoritmo "Faccat"
 // Data atual  : 19/04/2024
 Var
 // Se��o de Declara��es das vari�veis
-diagMaior, diagMenor:real
+diagonal_maiior, diagonal_menor:real
 
 Inicio
 
 Escreval("Area do Losango")
 Escreva("Digite o valor da diagonal Maior: ")
-Leia(diagMaior)
+Leia(diagonal_maiior)
 Escreva("Digite o valor da diagonal Menor: ")
-Leia(diagMenor)
-Escreval("A �rea �: ", (diagMaior * diagMenor) / 2)
+Leia(diagonal_menor)
+Escreval("A �rea �: ", (diagonal_maiior * diagonal_menor) / 2)
 
 Fimalgoritmo
