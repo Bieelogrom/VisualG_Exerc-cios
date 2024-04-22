@@ -6,30 +6,30 @@ Algoritmo "Faccat"
 // Data atual  : 19/04/2024
 Var
 
-votosTotais, votosBrancos, votosNulos, votosValidos:inteiro
+votos_totais_votante, votos_brancos_votante, votos_bulos, votos_validos:inteiro
 
-brancosPercent, nulosPercent, validosPercent:real
+brancos_porcentagem, nulos_porcentagem, validos_porcentagem:real
 
 Inicio
 
 Escreva("Digite o total de votos:")
-Leia(votosTotais)
+Leia(votos_totais_votante)
 Escreva("Digite o total de votos em brancos: ")
-Leia(votosBrancos)
+Leia(votos_brancos_votante)
 Escreva("Digite o total de votos nulos: ")
-Leia(votosNulos)
+Leia(votos_bulos)
 Escreva("Digite os total de votos validos: ")
-Leia(votosValidos)
+Leia(votos_validos)
 
-brancosPercent <- (votosBrancos / votosTotais) * 100
-nulosPercent <- (votosNulos / votosTotais) * 100
-validosPercent <-(votosValidos / votosTotais)* 100
+brancos_porcentagem <- (votos_brancos_votante / votos_totais_votante) * 100
+nulos_porcentagem <- (votos_bulos / votos_totais_votante) * 100
+validos_porcentagem <-(votos_validos / votos_totais_votante)* 100
 
 Escreval("")
-Escreval("Votos Totais: ", votosTotais)
-Escreval("Votos em Branco (%): ", brancosPercent)
-Escreval("Votos Nulos (%): ", nulosPercent)
-Escreval("Votos V�lidos (%): ", validosPercent)
+Escreval("Votos Totais: ", votos_totais_votante)
+Escreval("Votos em Branco (%): ", brancos_porcentagem)
+Escreval("Votos Nulos (%): ", nulos_porcentagem)
+Escreval("Votos V�lidos (%): ", validos_porcentagem)
 
 
 

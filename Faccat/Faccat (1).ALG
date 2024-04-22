@@ -5,20 +5,20 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   quantAtual, quantMax, quantMin, calc:real
+   quant_atual, quant_max, quant_min, calcula:real
 
 Inicio
 
    Escreva("Digite a quantidade atual do produto: ")
-   Leia(quantAtual)
+   Leia(quant_atual)
    Escreva("Digite a quantidade m�xima: ")
-   Leia(quantMax)
+   Leia(quant_max)
    Escreva("Digite a quantidade minima: ")
-   Leia(quantMin)
+   Leia(quant_min)
 
-   calc <- (quantMax + quantMin) / 2
+   calcula <- (quant_max + quant_min) / 2
 
-   se quantAtual >= calc entao
+   se quant_atual >= calcula entao
       Escreva("N�o efetuar compra!")
    senao
       Escreva("Efetuar compra")

@@ -5,14 +5,14 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-custo, calc:real
+custo_c, calcs:real
 
 Inicio
 Escreva("Digite o valor de fabrica do ve�culo: ")
-Leia(custo)
+Leia(custo_c)
 
-calc <- custo * (28/100) + custo * (45/100) + custo
+calcs <- custo_c * (28/100) + custo_c * (45/100) + custo_c
 
-Escreva("O valor final (impostos + valor do distribuidor) �: ", calc )
+Escreva("O valor final (impostos + valor do distribuidor) �: ", calcs )
 
 Fimalgoritmo
