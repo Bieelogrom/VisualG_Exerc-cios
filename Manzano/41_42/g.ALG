@@ -1,7 +1,7 @@
-Algoritmo "Divisiveis por 2 e 3"
+Algoritmo "41_42G"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

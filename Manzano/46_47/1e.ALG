@@ -1,7 +1,7 @@
-Algoritmo "Potencias de 3, do exponente 0 ao 15"
+Algoritmo "46_47E"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : MAnzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

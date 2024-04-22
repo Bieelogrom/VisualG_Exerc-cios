@@ -1,7 +1,7 @@
-Algoritmo "Calculo das raizes de uma equa��o de segundo grau"
+Algoritmo "41_42E"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano E
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

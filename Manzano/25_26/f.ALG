@@ -1,4 +1,4 @@
-Algoritmo "Troca de Valores"
+Algoritmo "25_26F"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

@@ -1,4 +1,4 @@
-Algoritmo "Volume da Lata"
+Algoritmo "25_26C"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

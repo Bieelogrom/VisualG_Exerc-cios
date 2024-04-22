@@ -1,4 +1,4 @@
-Algoritmo "Calculo Litros"
+Algoritmo "25_26D"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

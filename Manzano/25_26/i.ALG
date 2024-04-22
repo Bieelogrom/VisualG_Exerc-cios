@@ -1,4 +1,4 @@
-Algoritmo "Quadrado da Diferen�a"
+Algoritmo "25_26I"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

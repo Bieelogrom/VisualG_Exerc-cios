@@ -1,7 +1,7 @@
-Algoritmo "Dentro ou fora do intervalo"
+Algoritmo "41_42j"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

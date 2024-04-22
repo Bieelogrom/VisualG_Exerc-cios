@@ -1,7 +1,7 @@
-Algoritmo "Produto do maior num pelo menor"
+Algoritmo "41_42A"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano A
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

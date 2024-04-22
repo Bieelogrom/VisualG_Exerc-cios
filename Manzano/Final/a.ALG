@@ -1,7 +1,7 @@
-Algoritmo "Apresentar os quadrados dos n�meros inteiros de 15 a 200."
+Algoritmo "FinalA"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

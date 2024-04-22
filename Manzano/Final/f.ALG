@@ -1,7 +1,7 @@
-Algoritmo "Divisiveis por 4"
+Algoritmo "FinalF"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

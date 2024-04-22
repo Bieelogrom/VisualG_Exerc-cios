@@ -1,7 +1,7 @@
-Algoritmo "Calculo de m�dia de um aluno completo, com exame"
+Algoritmo "41_42D"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano D
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

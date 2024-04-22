@@ -1,7 +1,7 @@
-Algoritmo "Ordenar de forma crescente 3 valores"
+Algoritmo "41_42"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : MAnzano F
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

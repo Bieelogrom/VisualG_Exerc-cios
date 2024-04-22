@@ -1,7 +1,7 @@
-Algoritmo "Escreve uma sequ�ncia de Fibonnaci com 15 termos"
+Algoritmo "46_47G"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

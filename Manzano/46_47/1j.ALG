@@ -1,7 +1,7 @@
-Algoritmo "Media dos pares de 50 a 70"
+Algoritmo "46_47J"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : Manzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

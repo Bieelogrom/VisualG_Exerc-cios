@@ -1,4 +1,4 @@
-Algoritmo "Convers�o de Reais para Dolares"
+Algoritmo "25_26K"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

@@ -1,4 +1,4 @@
-Algoritmo "Presta��o Atrasada"
+Algoritmo "25_26E"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

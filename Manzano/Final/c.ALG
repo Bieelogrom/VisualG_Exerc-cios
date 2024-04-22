@@ -1,7 +1,7 @@
-Algoritmo "Soma dos n�meros de 1 a 100"
+Algoritmo "FinalC"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
-// Descrição   : Idade em Dias
+// Descrição   : IManzano
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var

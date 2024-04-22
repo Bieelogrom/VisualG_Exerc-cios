@@ -1,4 +1,4 @@
-Algoritmo "Somar e Multiplicar"
+Algoritmo "25_26G"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

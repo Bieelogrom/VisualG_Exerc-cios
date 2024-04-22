@@ -1,4 +1,4 @@
-Algoritmo "Celsius para Fahrenheit"
+Algoritmo "25_26A"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias

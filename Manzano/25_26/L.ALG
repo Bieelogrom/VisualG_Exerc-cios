@@ -1,4 +1,4 @@
-Algoritmo "Quadrados Somados"
+Algoritmo "25_26L"
 // Disciplina   : [Lógica de Programação com JS]
 // Professor   : Jailson
 // Descrição   : Idade em Dias
