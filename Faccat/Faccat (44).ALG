@@ -5,24 +5,24 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   jornadaMin:inteiro
-   horasExtras:inteiro
-   horasTrabalhadas:inteiro
-   salarioHora:real
-   salarioTotal:real
+   jornada_minima:inteiro
+   horas_extras:inteiro
+   horas_trabalhadas:inteiro
+   salario_hora:real
+   salario_total:real
 Inicio
-   jornadaMin <- 40 * 4
+   jornada_minima <- 40 * 4
    escreva ("Digite o numero de Horas trabalhadas em um M�s: ")
-   leia (horasTrabalhadas)
+   leia (horas_trabalhadas)
    escreva ("Digite o Salario por Hora: ")
-   leia (salarioHora)
+   leia (salario_hora)
 
-   se horasTrabalhadas > jornadaMin entao
-      horasExtras <- horasTrabalhadas - jornadaMin
-      salarioTotal <- salarioHora * horasTrabalhadas + horasExtras * salarioHora * 1.5
+   se horas_trabalhadas > jornada_minima entao
+      horas_extras <- horas_trabalhadas - jornada_minima
+      salario_total <- salario_hora * horas_trabalhadas + horas_extras * salario_hora * 1.5
    senao
-      salarioTotal <- salarioHora * horasTrabalhadas
+      salario_total <- salario_hora * horas_trabalhadas
    fimse
 
-   escreva ("O Salario do funcionario �: R$", salarioTotal)
+   escreva ("O Salario do funcionario �: R$", salario_total)
 Fimalgoritmo

@@ -5,20 +5,20 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   salarioFixo, totalVendas, totalSalario: real
+   salario_fixo, total_vendas, total_salario: real
 
 Inicio
    Escreva("Digite seu sal�rio fixo: ")
-   Leia(salarioFixo)
+   Leia(salario_fixo)
    Escreva("Digite o valor total de suas vendas: ")
-   Leia(totalVendas)
+   Leia(total_vendas)
 
-   se totalVendas <= 1500 entao
-      totalSalario <- salarioFixo + totalVendas * 1.03
+   se total_vendas <= 1500 entao
+      total_salario <- salario_fixo + total_vendas * 1.03
    senao
-      totalSalario <- salarioFixo + totalVendas * 1.08
+      total_salario <- salario_fixo + total_vendas * 1.08
    fimse
 
-   Escreva("Seu sal�rio total �: ", totalSalario)
+   Escreva("Seu sal�rio total �: ", total_salario)
 
 Fimalgoritmo

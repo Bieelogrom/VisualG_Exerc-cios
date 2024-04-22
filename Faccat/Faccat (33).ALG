@@ -6,20 +6,20 @@ Algoritmo "Faccat"
 // Data atual  : 19/04/2024
 Var
 
-vendaCarros: inteiro
-valorCarros, salarioFixo, valorVendaCarros, calc: real
+venda_carros: inteiro
+valor_carros, salario_fixo, valor_de_venda, final: real
 
 Inicio
 Escreva("Informe quantos carros voc� vendeu: ")
-Leia(vendaCarros)
+Leia(venda_carros)
 Escreva("Informe o valor total de suas vendas: ")
-Leia(valorCarros)
+Leia(valor_carros)
 Escreva("Informe seu sal�rio fixo: ")
-Leia(salarioFixo)
+Leia(salario_fixo)
 Escreva("Informe o valor que � atribuido por venda de ve�culo: ")
-Leia(valorVendaCarros)
+Leia(valor_de_venda)
 
-calc <- valorCarros * valorVendaCarros * (1 + 5/100)
-Escreva("Seu sal�rio final �: ", calc + salarioFixo)
+final <- valor_carros * valor_de_venda * (1 + 5/100)
+Escreva("Seu sal�rio final �: ", final + salario_fixo)
 
 Fimalgoritmo

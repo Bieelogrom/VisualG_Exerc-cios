@@ -5,15 +5,15 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024s
 Var
-   anoNascimento, anoAtual:inteiro
+   ano_de_nascimento, ano_atual:inteiro
 
 Inicio
    Escreva("Digite o ano atual: ")
-   Leia(anoAtual)
+   Leia(ano_atual)
    Escreva("Digite o ano de seu nascimento: ")
-   Leia(anoNascimento)
+   Leia(ano_de_nascimento)
 
-   Se (anoAtual - anoNascimento >= 16) entao
+   Se (ano_atual - ano_de_nascimento >= 16) entao
       Escreva("Poder� votar!")
    Senao
       Escreva("N�o poder� votar!")

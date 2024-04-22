@@ -5,29 +5,29 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   nascimento, codFuncionario, ingressoEmpresa, tempoTrabalhado, anoAtual, idadeFuncionario:inteiro
+   nascimneto_fun, cod_func, ingresso_empr, tempo_trabalhado, ano_atual, idade_funcionario:inteiro
    vaiAposentar: caractere
 Inicio
-   anoAtual <- 2024
+   ano_atual <- 2024
    Escreva("Digite seu ID de funcion�rio: ")
-   Leia(codFuncionario)
-   Escreva("Digite seu ano de nascimento: ")
-   Leia(nascimento)
+   Leia(cod_func)
+   Escreva("Digite seu ano de nascimneto_fun: ")
+   Leia(nascimneto_fun)
    Escreva("Digite seu ano de entrada na empresa: ")
-   Leia(ingressoEmpresa)
+   Leia(ingresso_empr)
 
-   idadeFuncionario <- anoAtual - nascimento
-   tempoTrabalhado <- anoAtual - ingressoEmpresa
+   idade_funcionario <- ano_atual - nascimneto_fun
+   tempo_trabalhado <- ano_atual - ingresso_empr
 
-   Se (idadeFuncionario >= 65) OU (tempoTrabalhado >= 30) OU ((idadeFuncionario >= 60) E (tempoTrabalhado >= 25)) entao
+   Se (idade_funcionario >= 65) OU (tempo_trabalhado >= 30) OU ((idade_funcionario >= 60) E (tempo_trabalhado >= 25)) entao
       vaiAposentar <- "Requerer aposentadoria"
    Senao
       vaiAposentar <- "N�o requerer"
    FimSe
 
    Escreval("")
-   Escreval("Idade:", idadeFuncionario)
-   Escreval("Tempo na Empresa:", tempoTrabalhado)
+   Escreval("Idade:", idade_funcionario)
+   Escreval("Tempo na Empresa:", tempo_trabalhado)
    Escreva("�pto para aposentar: ", vaiAposentar)
 
 

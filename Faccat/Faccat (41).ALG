@@ -5,18 +5,18 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   valor1, valor2:inteiro
+   valor_um, valor_dois:inteiro
 
 Inicio
    Escreva("Digite um valor: ")
-   Leia(valor1)
+   Leia(valor_um)
    Escreva("Digite outro valor: ")
-   Leia(valor2)
+   Leia(valor_dois)
 
-   Se (valor1 > valor2) entao
-      Escreva("O maior �: ", valor1)
+   Se (valor_um > valor_dois) entao
+      Escreva("O maior �: ", valor_um)
    Senao
-      Escreva("O maior �: ", valor2)
+      Escreva("O maior �: ", valor_dois)
    Fimse
 
 Fimalgoritmo

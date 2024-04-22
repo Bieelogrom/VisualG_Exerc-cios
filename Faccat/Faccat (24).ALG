@@ -5,28 +5,28 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   nota1, nota2, nota3, mediaExercicios, mediaFinal: real
+   nota_um, nota_dois, nota_tres, media_exercicios, media_final: real
    notaMedia: caractere
 
 Inicio
    Escreva("Digite a Primeira Nota: ")
-   Leia(nota1)
+   Leia(nota_um)
    Escreva("Digite a Segunda Nota: ")
-   Leia(nota2)
+   Leia(nota_dois)
    Escreva("Digite a Terceira Nota: ")
-   Leia(nota3)
+   Leia(nota_tres)
    Escreva("Digite a Media dos Exerc�cios: ")
-   Leia(mediaExercicios)
+   Leia(media_exercicios)
 
-   mediaFinal <- (nota1 + (nota2 * 2) + (nota3 * 3) + mediaExercicios) / 7
+   media_final <- (nota_um + (nota_dois * 2) + (nota_tres * 3) + media_exercicios) / 7
 
-   Se mediaFinal >= 9.0 entao
+   Se media_final >= 9.0 entao
       notaMedia <- "A"
    Senao
-      Se (mediaFinal >= 7.5) E (mediaFinal < 9.0) entao
+      Se (media_final >= 7.5) E (media_final < 9.0) entao
          notaMedia <- "B"
       Senao
-         Se (mediaFinal >= 6.0) E (mediaFinal < 7.5) entao
+         Se (media_final >= 6.0) E (media_final < 7.5) entao
             notaMedia <- "C"
          Senao
             notaMedia <- "D"

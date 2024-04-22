@@ -5,23 +5,23 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   nomeProd: caractere
-   quantidade: inteiro
-   precoUni, total, desconto: real
+   nome_produto: caractere
+   Quantidade_Total: inteiro
+   preco_unitario, total, desconto: real
 
 Inicio
    Escreva("Digite o nome do produto: ")
-   Leia(nomeProd)
+   Leia(nome_produto)
    Escreva("Digite o pre�o unit�rio do produto: ")
-   Leia(precoUni)
-   Escreva("Digite a quantidade adquirida: ")
-   Leia(quantidade)
+   Leia(preco_unitario)
+   Escreva("Digite a Quantidade_Total adquirida: ")
+   Leia(Quantidade_Total)
 
-   total <- quantidade * precoUni
-   Se quantidade > 10 entao
+   total <- Quantidade_Total * preco_unitario
+   Se Quantidade_Total > 10 entao
       desconto <- total * 0.05
    Senao
-      Se (quantidade > 5) E (quantidade <= 10) entao
+      Se (Quantidade_Total > 5) E (Quantidade_Total <= 10) entao
          desconto <- total * 0.03
       Senao
          desconto <- total * 0.02
@@ -29,9 +29,9 @@ Inicio
    FimSe
 
    Escreval("")
-   Escreval("Produto: ", nomeProd)
-   Escreval("Quantidade: ", quantidade)
-   Escreval("Pre�o unit�rio: ", precoUni)
+   Escreval("Produto: ", nome_produto)
+   Escreval("Quantidade_Total: ", Quantidade_Total)
+   Escreval("Pre�o unit�rio: ", preco_unitario)
    Escreva("Total a pagar: ", total - desconto)
 
 Fimalgoritmo

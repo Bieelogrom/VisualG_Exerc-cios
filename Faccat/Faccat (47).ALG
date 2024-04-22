@@ -5,11 +5,11 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   numConta, saldo, debito, credito, saldoAtual: real
+   numero_da_conta, saldo, debito, credito, saldo_atual: real
 
 Inicio
    Escreva("Digite o n�mero da sua conta: ")
-   Leia(numConta)
+   Leia(numero_da_conta)
    Escreva("Digite o valor do seu saldo: ")
    Leia(saldo)
    Escreva("Digite seu valor de d�bito: ")
@@ -17,9 +17,9 @@ Inicio
    Escreva("Digite seu valor de cr�dito: ")
    Leia(credito)
 
-   saldoAtual <- saldo - debito + credito
+   saldo_atual <- saldo - debito + credito
 
-   se saldoAtual >= 0 entao
+   se saldo_atual >= 0 entao
       Escreva("Saldo Positivo.")
    senao
       Escreva("Saldo Negativo.")

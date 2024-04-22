@@ -6,18 +6,18 @@ Algoritmo "Faccat"
 // Data atual  : 19/04/2024
 Var
 
-nota1, nota2, nota3: inteiro
+nota_um, nota_dois, nota_tres: inteiro
 media: real
 
 Inicio
 Escreva("Digite a nota 1: ")
-Leia(nota1)
+Leia(nota_um)
 Escreva("Digite a nota 2: ")
-Leia(nota2)
+Leia(nota_dois)
 Escreva("Digite a nota 3: ")
-Leia(nota3)
+Leia(nota_tres)
 
-media <- (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10
+media <- (nota_um * 2 + nota_dois * 3 + nota_tres * 5) / 10
 Escreva("A m�dia final �: ", media)
 
 

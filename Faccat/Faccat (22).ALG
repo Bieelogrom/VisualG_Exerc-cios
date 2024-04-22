@@ -5,7 +5,7 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   login, senha, tentaLogin, tentaSenha: real
+   login, senha, tenta_login, tentativa_senha: real
 
 
 Inicio
@@ -13,15 +13,15 @@ Inicio
    login <- 1234
    senha <- 9999
    Escreval("Digite o Login: ")
-   Leia(tentaLogin)
+   Leia(tenta_login)
 
-   Se tentaLogin <> login entao
+   Se tenta_login <> login entao
       Escreva("Login inv�lido!")
    Senao
       Escreval("Digite a Senha: ")
-      Leia(tentaSenha)
+      Leia(tentativa_senha)
 
-      Se tentaSenha <> senha entao
+      Se tentativa_senha <> senha entao
          Escreva("Senha inv�lida!")
       Senao
          Escreva("Acesso Permitido!")

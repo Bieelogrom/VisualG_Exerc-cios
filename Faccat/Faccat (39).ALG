@@ -5,18 +5,18 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   nota1, nota2, media: real
+   nota_um, nota_dois, media_final: real
 
 Inicio
    Escreva("Digite a nota da primeira avalia��o do aluno: ")
-   Leia(nota1)
+   Leia(nota_um)
    Escreva("Digite a nota da segunda avalia��o do aluno: ")
-   Leia(nota2)
+   Leia(nota_dois)
 
-   media <- (nota1 + nota2) / 2
-   Escreval("A m�dia �: ", media)
+   media_final <- (nota_um + nota_dois) / 2
+   Escreval("A m�dia �: ", media_final)
 
-   Se (media >= 6) entao
+   Se (media_final >= 6) entao
       Escreval("Aluno aprovado!")
    Senao
       Escreval("Aluno reprovado!")

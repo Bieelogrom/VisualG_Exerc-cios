@@ -5,12 +5,12 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   num: inteiro
+   valor: inteiro
 
 Inicio
    Escreva("Escreva um n�mero: ")
-   Leia(num)
-   Se (num > 10) entao
+   Leia(valor)
+   Se (valor > 10) entao
       Escreva("� maior que 10!")
    Senao
       Escreva("N�o � menor que 10!")

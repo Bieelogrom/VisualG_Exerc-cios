@@ -5,38 +5,38 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   homem1, homem2, mulher1, mulher2, maiorH, menorH, maiorM, menorM: inteiro
+   homem_um, homem_dois, mulher_um, mulher_dois, homem_mai_velho, homem_mai_novo, mulher_mai_velha, mulher_mai_nova: inteiro
    soma, produto: real
 
 Inicio
    Escreval("Digite a idade do Primeiro Homem: ")
-   Leia(homem1)
+   Leia(homem_um)
    Escreval("Digite a idade do Segundo Homem: ")
-   Leia(homem2)
+   Leia(homem_dois)
 
    Escreval("Digite a idade da Primeira Mulher: ")
-   Leia(mulher1)
+   Leia(mulher_um)
    Escreval("Digite a idade da Segunda Mulher: ")
-   Leia(mulher2)
+   Leia(mulher_dois)
 
-   Se homem1 > homem2 entao
-      maiorH <- homem1
-      menorH <- homem2
+   Se homem_um > homem_dois entao
+      homem_mai_velho <- homem_um
+      homem_mai_novo <- homem_dois
    Senao
-      maiorH <- homem2
-      menorH <- homem1
+      homem_mai_velho <- homem_dois
+      homem_mai_novo <- homem_um
    FimSe
 
-   Se mulher1 > mulher2 entao
-      maiorM <- mulher1
-      menorM <- mulher2
+   Se mulher_um > mulher_dois entao
+      mulher_mai_velha <- mulher_um
+      mulher_mai_nova <- mulher_dois
    Senao
-      maiorM <- mulher2
-      menorM <- mulher1
+      mulher_mai_velha <- mulher_dois
+      mulher_mai_nova <- mulher_um
    FimSe
 
-   soma <- maiorH + menorM
-   produto <- menorH * maiorM
+   soma <- homem_mai_velho + mulher_mai_nova
+   produto <- homem_mai_novo * mulher_mai_velha
 
    Escreval("Soma da maior idade de homem com a menor idade de mulher: ", soma)
    Escreval("Produto da menor idade de homem com a maior idade de mulher: ", produto)

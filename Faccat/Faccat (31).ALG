@@ -5,27 +5,27 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   nota1, nota2: inteiro
+   primeira_nota, segunda_nota: inteiro
    media:real
 Inicio
-   nota1 <- -1
-   Enquanto (nota1 < 0) ou (nota1 > 10)  faca
+   primeira_nota <- -1
+   Enquanto (primeira_nota < 0) ou (primeira_nota > 10)  faca
       Escreva("Digite a nota da Avaliacao 1: ")
-      Leia(nota1)
-      Se(nota1 = 0) entao
+      Leia(primeira_nota)
+      Se(primeira_nota = 0) entao
          Escreval("VALOR INVALIDO")
       FimSe
    FimEnquanto
 
    repita
       Escreva("Digite a nota da Avaliacao 2: ")
-      Leia(nota2)
-      Se(nota2 = 0) entao
+      Leia(segunda_nota)
+      Se(segunda_nota = 0) entao
          Escreval("VALOR INVALIDO")
       FimSe
-   ate (nota2 >= 0) e (nota2 <= 10)
+   ate (segunda_nota >= 0) e (segunda_nota <= 10)
 
 
-   media <- (nota1 + nota2) / 2
+   media <- (primeira_nota + segunda_nota) / 2
    Escreva("Media do aluno: ", media)
 Fimalgoritmo

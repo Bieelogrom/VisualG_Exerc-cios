@@ -5,22 +5,22 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   horaInicio, horaFim, horasPartida:inteiro
+   hora_de_inicio, hora_final, tempo_partida:inteiro
 
 Inicio
    Escreva("Digite a hora de inicio da partida: ")
-   Leia(horaInicio)
+   Leia(hora_de_inicio)
    Escreva("Digite a hora de fim da partida: ")
-   Leia(horaFim)
+   Leia(hora_final)
 
 
 
-   Se (horaInicio > horaFim) entao
-      horasPartida <- 24 - horaInicio + horaFim
-      Escreva("Horas de partida: ", horasPartida)
+   Se (hora_de_inicio > hora_final) entao
+      tempo_partida <- 24 - hora_de_inicio + hora_final
+      Escreva("Horas de partida: ", tempo_partida)
    Senao
-        horasPartida <- horaFim + horaInicio
-        Escreva("Horas de partida: ", horasPartida)
+        tempo_partida <- hora_final + hora_de_inicio
+        Escreva("Horas de partida: ", tempo_partida)
    Fimse
 
 

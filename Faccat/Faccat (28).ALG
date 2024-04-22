@@ -5,19 +5,19 @@ Algoritmo "Faccat"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 19/04/2024
 Var
-   n1, n2: inteiro
+   numero_um, numero_dois: inteiro
 Inicio
 
    Escreva("Digite o Primeiro valor: ")
-   Leia(n1)
+   Leia(numero_um)
 
-   Enquanto n2 = 0 faca
+   Enquanto numero_dois = 0 faca
       Escreval("")
       Escreval("Aviso: o segundo valor nao pode ser 0...")
       Escreva("Digite o Segundo valor: ")
-      Leia(n2)
+      Leia(numero_dois)
    FimEnquanto
 
-   Escreva(n1, n2)
+   Escreva(numero_um, numero_dois)
 
 Fimalgoritmo
