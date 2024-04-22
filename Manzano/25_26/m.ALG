@@ -6,20 +6,20 @@ Algoritmo "25_26M"
 // Data atual  : 18/04/2024
 
 Var
-n1, n2, n3, calc: real
+numero_um, numero_dois, numero_tres, calculo: real
 
 Inicio
 Escreva("Digite o primeiro n�mero: ")
-Leia(n1)
+Leia(numero_um)
 Escreva("Digite o segundo n�mero: ")
-Leia(n2)
+Leia(numero_dois)
 Escreva("Digite o terceiro n�mero: ")
-Leia(n3)
+Leia(numero_tres)
 
-calc <- n1 + n2 + n3
+calculo <- numero_um + numero_dois + numero_tres
 Escreval("")
-Escreval("A Soma dos 3 termos: ", calc)
-Escreval("O Quadrado da Soma: ", calc ^2)
+Escreval("A Soma dos 3 termos: ", calculo)
+Escreval("O Quadrado da Soma: ", calculo ^2)
 
 
 Fimalgoritmo

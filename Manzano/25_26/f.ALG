@@ -6,7 +6,7 @@ Algoritmo "25_26F"
 // Data atual  : 18/04/2024
 
 Var
-a, b, aux: real
+a, b, temp: real
 
 Inicio
 Escreva("Digite o primeiro valor: ")
@@ -14,9 +14,9 @@ Leia(a)
 Escreva("Digite o segundo valor: ")
 Leia(b)
 
-aux <- b
+temp <- b
 b <- a
-a <- aux
+a <- temp
 
 Escreva("Os valores trocados, s�o respetivamente: ", a, b)
 

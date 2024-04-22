@@ -6,14 +6,14 @@ Algoritmo "25_26K"
 // Data atual  : 18/04/2024
 
 Var
-cotacao, quantidade:real
+cotacao_real, quantidade:real
 
 Inicio
 Escreva("Digite a cota��o atual do Dolar (em R$): ")
-Leia(cotacao)
+Leia(cotacao_real)
 Escreva("Digite a quantidade de reais para convers�o em dolares: ")
 Leia(quantidade)
 
-Escreva("O valor convertido em US$: ", quantidade / cotacao)
+Escreva("O valor convertido em US$: ", quantidade / cotacao_real)
 
 Fimalgoritmo

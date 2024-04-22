@@ -5,7 +5,7 @@ Algoritmo "25_26C"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-raio, altura, pii, vol: real
+raio, altura, pi, Volume: real
 
 Inicio
 Escreva("Digite a altura da Lata de �leo (em cm): ")
@@ -13,8 +13,8 @@ Leia(altura)
 Escreva("Digite o raio da Lata de �leo: ")
 Leia(raio)
 
-pii <- 3.14
-vol <- pii * (raio ^ 2) * altura
-Escreva("O Volume �: ", vol)
+pi <- 3.14
+Volume <- pi * (raio ^ 2) * altura
+Escreva("O Volume �: ", Volume)
 
 Fimalgoritmo

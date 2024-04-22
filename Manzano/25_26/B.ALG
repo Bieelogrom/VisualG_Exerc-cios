@@ -5,13 +5,13 @@ Algoritmo "25_26B"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-grausF, conversao: real
+graus_f, convert: real
 
 Inicio
 Escreva("Digite a temperatura em Fahrenheit: ")
-Leia(grausF)
+Leia(graus_f)
 
-conversao <- (grausF - 32) / 1.8
-Escreva("Em Celsius fica: ", conversao)
+convert <- (graus_f - 32) / 1.8
+Escreva("Em Celsius fica: ", convert)
 
 Fimalgoritmo

@@ -6,7 +6,7 @@ Algoritmo "25_26E"
 // Data atual  : 18/04/2024
 
 Var
-valor, taxa, temp, prestacao: real
+valor, taxa, temporair, PRestacao: real
 
 Inicio
 Escreva("Qual � o valor da presta��o atrasada: ")
@@ -14,9 +14,9 @@ Leia(valor)
 Escreva("Qual � a taxa aplicada na presta��o atrasada: ")
 Leia(taxa)
 Escreva("Digite a quantos dias ela est� em atraso: ")
-Leia(temp)
+Leia(temporair)
 
-prestacao <- valor + (valor * taxa/100) * temp
-Escreva("O valor da presta��o ser�: ", prestacao)
+PRestacao <- valor + (valor * taxa/100) * temporair
+Escreva("O valor da presta��o ser�: ", PRestacao)
 
 Fimalgoritmo

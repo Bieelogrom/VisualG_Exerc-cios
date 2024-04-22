@@ -6,7 +6,7 @@ Algoritmo "25_26H"
 // Data atual  : 18/04/2024
 
 Var
-comprimento, altura, largura, vol: real
+comprimento, altura, largura, Volume: real
 
 Inicio
 Escreva("Digite o valor do comprimento da caixa: ")
@@ -16,7 +16,7 @@ Leia(altura)
 Escreva("Digite o valor da largura da caixa: ")
 Leia(largura)
 
-vol <- comprimento * altura * largura
-Escreva("O Volume da caixa �: ", vol)
+Volume <- comprimento * altura * largura
+Escreva("O Volume da caixa �: ", Volume)
 
 Fimalgoritmo
