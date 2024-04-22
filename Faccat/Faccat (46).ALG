@@ -1,4 +1,4 @@
-Algoritmo "Salario com Comiss�o"
+Algoritmo "Faccat"
 // Disciplina   : [L�gica de Programa��o com JS]
 // Professor   : Jailson
 // Descri��o   : Exercício FACCAT

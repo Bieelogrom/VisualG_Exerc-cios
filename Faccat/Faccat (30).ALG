@@ -1,4 +1,4 @@
-Algoritmo "Diferente de 0 (Enquanto com Mensagem)"
+Algoritmo "Faccat"
 // Disciplina   : [L�gica de Programa��o com JS]
 // Professor   : Jailson
 // Descri��o   : Exercício FACCAT

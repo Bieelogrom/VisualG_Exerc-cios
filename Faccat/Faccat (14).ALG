@@ -1,4 +1,4 @@
-Algoritmo "Ordem Crescente"
+Algoritmo "Faccat"
 // Disciplina   : [L�gica de Programa��o com JS]
 // Professor   : Jailson
 // Descri��o   : Exercício FACCAT

@@ -1,4 +1,4 @@
-Algoritmo "Area e Perimetro de um retangulo"
+Algoritmo "Faccat"
 // Disciplina   : [L�gica de Programa��o com JS]
 // Professor   : Jailson
 // Descri��o   : Exercício FACCAT
