@@ -5,62 +5,62 @@ Algoritmo "41_42"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   num1, num2, num3, num4, num5, maior, menor: inteiro
+   numero1, numero2, numero3, numero4, numero5, maior_num, menor_num: inteiro
 
 Inicio
    Escreva("Digite o valor 1: ")
-   Leia(num1)
+   Leia(numero1)
    Escreva("Digite o valor 2: ")
-   Leia(num2)
+   Leia(numero2)
    Escreva("Digite o valor 3: ")
-   Leia(num3)
+   Leia(numero3)
    Escreva("Digite o valor 4: ")
-   Leia(num4)
+   Leia(numero4)
    Escreva("Digite o valor 5: ")
-   Leia(num5)
+   Leia(numero5)
 
-   Se (num1 > num2) E (num1 > num3) E (num1 > num4) E (num1 > num5) entao
-      maior <- num1
+   Se (numero1 > numero2) E (numero1 > numero3) E (numero1 > numero4) E (numero1 > numero5) entao
+      maior_num <- numero1
    Senao
-      Se (num1 < num2) E (num1 < num3) E (num1 < num4) E (num1 < num5) entao
-         menor <- num1
+      Se (numero1 < numero2) E (numero1 < numero3) E (numero1 < numero4) E (numero1 < numero5) entao
+         menor_num <- numero1
       FimSe
    FimSe
 
-   Se (num2 > num1) E (num2 > num3) E (num2 > num4) E (num2 > num5) entao
-      maior <- num2
+   Se (numero2 > numero1) E (numero2 > numero3) E (numero2 > numero4) E (numero2 > numero5) entao
+      maior_num <- numero2
    Senao
-      Se (num2 < num1) E (num2 < num3) E (num2 < num4) E (num2 < num5) entao
-         menor <- num2
+      Se (numero2 < numero1) E (numero2 < numero3) E (numero2 < numero4) E (numero2 < numero5) entao
+         menor_num <- numero2
       FimSe
    FimSe
 
-   Se (num3 > num1) E (num3 > num2) E (num3 > num4) E (num3 > num5) entao
-      maior <- num3
+   Se (numero3 > numero1) E (numero3 > numero2) E (numero3 > numero4) E (numero3 > numero5) entao
+      maior_num <- numero3
    Senao
-      Se (num3 < num1) E (num3 < num2) E (num3 < num4) E (num3 < num5) entao
-         menor <- num3
+      Se (numero3 < numero1) E (numero3 < numero2) E (numero3 < numero4) E (numero3 < numero5) entao
+         menor_num <- numero3
       FimSe
    FimSe
 
-   Se (num4 > num1) E (num4 > num3) E (num4 > num3) E (num4 > num5) entao
-      maior <- num4
+   Se (numero4 > numero1) E (numero4 > numero3) E (numero4 > numero3) E (numero4 > numero5) entao
+      maior_num <- numero4
    Senao
-      Se (num4 < num1) E (num4 < num3) E (num4 < num3) E (num4 < num5) entao
-         menor <- num4
+      Se (numero4 < numero1) E (numero4 < numero3) E (numero4 < numero3) E (numero4 < numero5) entao
+         menor_num <- numero4
       FimSe
    FimSe
 
-   Se (num5 > num1) E (num5 > num2) E (num5 > num3) E (num5 > num4) entao
-      maior <- num5
+   Se (numero5 > numero1) E (numero5 > numero2) E (numero5 > numero3) E (numero5 > numero4) entao
+      maior_num <- numero5
    Senao
-      Se (num5 < num1) E (num5 < num2) E (num5 < num3) E (num5 < num4) entao
-         menor <- num5
+      Se (numero5 < numero1) E (numero5 < numero2) E (numero5 < numero3) E (numero5 < numero4) entao
+         menor_num <- numero5
       FimSe
    FimSe
 
 
-   Escreval("O menor �: ", menor)
-   Escreval("O maior �: ", maior)
+   Escreval("O menor_num �: ", menor_num)
+   Escreval("O maior_num �: ", maior_num)
 
 Fimalgoritmo

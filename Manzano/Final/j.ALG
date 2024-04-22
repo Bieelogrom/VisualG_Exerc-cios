@@ -5,13 +5,13 @@ Algoritmo "FinalJ"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   gCelsius:inteiro
-   gFahren:real
+   graus_c:inteiro
+   graus_f:real
 
 Inicio
-   para gCelsius de 0 ate 100 passo 10 faca
-      gFahren <- (9 * gCelsius + 160) / 5
-      Escreval(gCelsius,"�C em Graus F�: ", gFahren)
+   para graus_c de 0 ate 100 passo 10 faca
+      graus_f <- (9 * graus_c + 160) / 5
+      Escreval(graus_c,"�C em Graus F�: ", graus_f)
    FimPara
 
 Fimalgoritmo

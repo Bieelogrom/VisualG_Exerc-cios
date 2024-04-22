@@ -5,16 +5,16 @@ Algoritmo "FinalK"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   count,fatorial,fatorial1:inteiro
+   contadora,fatorial,fatorial1:inteiro
 
 Inicio
 
    fatorial <- 1
-   para count de 0 ate 10 passo 1 faca
-      Se count % 2 = 1 entao
+   para contadora de 0 ate 10 passo 1 faca
+      Se contadora % 2 = 1 entao
          fatorial1 <- fatorial
-         fatorial <- fatorial * count
-         Escreval(count," x",fatorial1,":", fatorial)
+         fatorial <- fatorial * contadora
+         Escreval(contadora," x",fatorial1,":", fatorial)
       FimSe
    FimPara
 

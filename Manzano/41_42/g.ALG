@@ -5,30 +5,30 @@ Algoritmo "41_42G"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   n1, n2, n3, n4: real
+   nota1, nota2, nota3, nota4: real
 
 Inicio
    Escreva("Digite o valor 1: ")
-   Leia(n1)
+   Leia(nota1)
    Escreva("Digite o valor 2: ")
-   Leia(n2)
+   Leia(nota2)
    Escreva("Digite o valor 3: ")
-   Leia(n3)
+   Leia(nota3)
    Escreva("Digite o valor 4: ")
-   Leia(n4)
+   Leia(nota4)
 
    Escreva("Os n�meros divisiveis por 2 e 3 s�o:")
-   Se (n1 % 2 = 0) E (n1 % 3 = 0) entao
-      Escreva(n1)
+   Se (nota1 % 2 = 0) E (nota1 % 3 = 0) entao
+      Escreva(nota1)
    FimSe
-   Se (n2 % 2 = 0) E (n2 % 3 = 0) entao
-      Escreva(n1)
+   Se (nota2 % 2 = 0) E (nota2 % 3 = 0) entao
+      Escreva(nota1)
    FimSe
-   Se (n3 % 2 = 0) E (n3 % 3 = 0) entao
-      Escreva(n1)
+   Se (nota3 % 2 = 0) E (nota3 % 3 = 0) entao
+      Escreva(nota1)
    FimSe
-   Se (n4 % 2 = 0) E (n4 % 3 = 0) entao
-      Escreva(n1)
+   Se (nota4 % 2 = 0) E (nota4 % 3 = 0) entao
+      Escreva(nota1)
    FimSe
 
 Fimalgoritmo

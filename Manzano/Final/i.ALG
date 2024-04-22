@@ -5,20 +5,20 @@ Algoritmo "FinalI"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   n1,n2,nth:real
-   count:inteiro
+   numero_um,numero_dois,nth:real
+   contadora:inteiro
 Inicio
-   para count de 0 ate 15 passo 1 faca
-      Se count = 0 entao
-         n1 <- 1
-         n2 <- 1
+   para contadora de 0 ate 15 passo 1 faca
+      Se contadora = 0 entao
+         numero_um <- 1
+         numero_dois <- 1
       Senao
-         nth <- n1 + n2
-         n1 <- n2
-         n2 <- nth
+         nth <- numero_um + numero_dois
+         numero_um <- numero_dois
+         numero_dois <- nth
       FimSe
 
-      Escreval(count,"� termo de Fibonacci: ", nth)
+      Escreval(contadora,"� termo de Fibonacci: ", nth)
    FimPara
 
 Fimalgoritmo

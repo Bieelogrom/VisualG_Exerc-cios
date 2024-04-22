@@ -5,15 +5,15 @@ Algoritmo "FinalD"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   count,somados:inteiro
+   contadora,soma:inteiro
 
 Inicio
-   para count de 1 ate 500 passo 1 faca
-        Se count % 2 = 0 entao
-           somados <- somados + count
+   para contadora de 1 ate 500 passo 1 faca
+        Se contadora % 2 = 0 entao
+           soma <- soma + contadora
         FimSe
    FimPara
 
-   Escreva("O Somat�rio dos pares de 1 a 500: ", somados)
+   Escreva("O Somat�rio dos pares de 1 a 500: ", soma)
 
 Fimalgoritmo

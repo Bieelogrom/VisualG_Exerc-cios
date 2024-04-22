@@ -5,22 +5,22 @@ Algoritmo "41_42C"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   nota1, nota2, nota3, nota4, media:Real
+   nota_Um, nota_Dois, nota_Tres, nota_Quatro, media_final:Real
 
 Inicio
    Escreva("Digite a primeira nota: ")
-   Leia(nota1)
+   Leia(nota_Um)
    Escreva("Digite a segunda nota: ")
-   Leia(nota2)
+   Leia(nota_Dois)
    Escreva("Digite a terceira nota: ")
-   Leia(nota3)
+   Leia(nota_Tres)
    Escreva("Digite a quarta nota: ")
-   Leia(nota4)
+   Leia(nota_Quatro)
 
-   media <- (nota1 + nota2 + nota3 + nota4) / 4
+   media_final <- (nota_Um + nota_Dois + nota_Tres + nota_Quatro) / 4
 
-   Escreval("M�dia: ", media)
-   Se media >= 5 entao
+   Escreval("M�dia: ", media_final)
+   Se media_final >= 5 entao
       Escreva("Aluno aprovado!")
    Senao
       Escreva("Aluno reprovado!")

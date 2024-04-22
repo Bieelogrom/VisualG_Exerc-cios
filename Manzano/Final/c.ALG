@@ -5,13 +5,13 @@ Algoritmo "FinalC"
 // Autor(a)    : Gabriel Ferreira Amorim
 // Data atual  : 18/04/2024
 Var
-   count,somados:inteiro
+   contadora,soma:inteiro
 
 Inicio
-   para count de 1 ate 100 passo 1 faca
-      somados <- somados + count
+   para contadora de 1 ate 100 passo 1 faca
+      soma <- soma + contadora
    FimPara
 
-   Escreva("O Somat�rio dos n�meros de 1 a 100: ", somados)
+   Escreva("O Somat�rio dos n�meros de 1 a 100: ", soma)
 
 Fimalgoritmo
